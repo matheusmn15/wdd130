@@ -57,6 +57,16 @@ header nav a {
     font-weight: bold;
 }
 
+header nav a:hover {
+    color: var(--accent2-color);
+}
+
+section h2 {
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
