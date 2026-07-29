@@ -92,26 +92,28 @@ section h2 {
     border-radius: 4px;
 }
 
-.adventure-gallery {
+section.adventures {
     display: flex;
-    justify-content: space-between;
-    gap: 8px;
     flex-wrap: wrap;
 }
 
-.adventure-gallery figure {
-    flex: 1 1 0;
-    text-align: center;
-    margin: 0;
+section.adventures h2 {
+    flex-basis: 100%;
 }
 
-.adventure-gallery img {
+section.adventures figure {
+    flex: 1 1 0;
+    text-align: center;
+    margin: 0 4px;
+}
+
+section.adventures img {
     width: 100%;
     height: auto;
     border-radius: 4px;
 }
 
-.adventure-gallery figcaption {
+section.adventures figcaption {
     margin-top: 4px;
     font-size: 0.9rem;
 }
