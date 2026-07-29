@@ -15,10 +15,12 @@
     <header>
         <img src="images/logo-big-blue-adventure.jpeg" alt="Big Blue Adventures Logo" class="logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -35,23 +37,47 @@
             </article>
         </div>
 
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>Founded by a group of river guides who dreamed of sharing their passion for the
-                water, Big Blue
-                Adventures has grown from a single raft and a handful of trips into a trusted name
-                in whitewater
-                rafting, known for unforgettable adventures and a dedication to safety.</p>
+            <div class="history-content">
+                <p>Founded by a group of river guides who dreamed of sharing their passion for the water, Big Blue
+                    Adventures started with a single raft and a handful of trips down the local rapids.</p>
+                <img src="images/rafting.jpeg" alt="Rafters paddling through whitewater">
+                <p>Today, Big Blue Adventures has grown into a trusted name in whitewater rafting, known for
+                    unforgettable adventures and an unwavering dedication to safety.</p>
+            </div>
         </section>
 
-        <section>
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/vila-jeri.png" alt="Vila de Jericoacoara">
+                    <figcaption>Vila de Jericoacoara</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lagoa-do-paraiso.png" alt="Lagoa do Paraíso">
+                    <figcaption>Lagoa do Paraíso</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/lagoon.png" alt="Lagoon adventure">
+                    <figcaption>Lagoon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pedra-furada.png" alt="Pedra Furada">
+                    <figcaption>Pedra Furada</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/passeio-lado-leste.png" alt="Passeio Lado Leste">
+                    <figcaption>Passeio Lado Leste</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Big Blue Adventures, Matheus Nascimento</p>
-        <nav class="socialmedia">
+        <nav class="socialmedia" aria-label="Social media links">
             <a href="https://facebook.com">
                 <img src="images/logo-facebook.jpeg" alt="Facebook Icon">
             </a>
