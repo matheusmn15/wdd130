@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <h1>HTML &amp; CSS Quiz</h1>
+
+    <form action="#" method="post" class="quiz-form">
+        <div class="form-group">
+            <label for="q1">1. Fill in the blank: The &lt;___&gt; element defines the most important heading on a
+                page.</label>
+            <input type="text" id="q1" name="q1" placeholder="Your answer">
+        </div>
+
+        <div class="form-group">
+            <label for="q2">2. In your own words, explain the difference between an <code>id</code> and a
+                <code>class</code> attribute.</label>
+            <textarea id="q2" name="q2" rows="5" placeholder="Type your answer here"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="q3">3. Which CSS property is used to change the text color of an element?</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="color">color</option>
+                <option value="text-color">text-color</option>
+                <option value="font-color">font-color</option>
+                <option value="foreground-color">foreground-color</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="q4">4. How many heading levels are available in HTML (h1 through h6)?</label>
+            <input type="number" id="q4" name="q4" min="1" max="10" placeholder="Your answer">
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Quiz</button>
+    </form>
+</body>
+
+</html>
